@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mhill27.github.io/iowa-city-golf-guide/sitemap.xml
