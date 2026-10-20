@@ -238,6 +238,30 @@
       color: var(--muted);
     }
 
+    .course-photo {
+      margin: 30px auto 0;
+      max-width: 1056px;
+    }
+
+    .course-photo img {
+      display: block;
+      width: 100%;
+      height: auto;
+      max-height: 430px;
+      object-fit: cover;
+      border-radius: 14px;
+    }
+
+    .course-photo figcaption {
+      color: #dce9e0;
+      font-size: .78rem;
+      margin-top: 8px;
+    }
+
+    .course-photo a {
+      color: #fff0c0;
+    }
+
     @media (max-width: 740px) {
       .grid { grid-template-columns: 1fr; }
       .hero { padding: 50px 0; }
@@ -304,6 +328,21 @@
         <a class="button secondary" href="beginner-golf.html">
           New to Golf? Start Here
         </a>
+
+        <figure class="course-photo">
+          <img
+            src="https://images.unsplash.com/photo-1563371119-cfab99d2fbf4?auto=format&amp;fit=crop&amp;w=1400&amp;q=85"
+            alt="Green golf course fairway surrounded by trees with sand bunkers"
+            width="1400"
+            height="850"
+            fetchpriority="high">
+
+          <figcaption>
+            Illustrative golf course photograph from
+            <a href="https://unsplash.com/photos/QtVlqUUpf4k" target="_blank" rel="noopener noreferrer">Unsplash</a>.
+            Not a photograph of a fictional course or an Iowa City course.
+          </figcaption>
+        </figure>
 
       </div>
     </div>
