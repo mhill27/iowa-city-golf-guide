@@ -1,0 +1,589 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Golf Lessons in Iowa City | Beginner Golf Guide</title>
+  <meta name="description" content="Explore beginner golf lessons in Iowa City with fictional lesson packages, practice tips, and advice on learning to play golf.">
+  <link rel="canonical" href="https://mhill27.github.io/iowa-city-golf-guide/golf-lessons.html">
+
+  <style>
+    :root {
+      --pine:#133c33;
+      --grass:#276b52;
+      --cream:#f7f5ee;
+      --gold:#eacb84;
+      --ink:#1b2d27;
+      --muted:#54645c;
+      --line:#dfe5dc;
+    }
+
+    * { box-sizing:border-box; }
+
+    html { scroll-behavior:smooth; }
+
+    body {
+      margin:0;
+      background:var(--cream);
+      color:var(--ink);
+      font:16px/1.65 system-ui,Arial,sans-serif;
+    }
+
+    a { color:var(--grass); }
+
+    .container {
+      max-width:1100px;
+      margin:0 auto;
+      padding:0 22px;
+    }
+
+    .notice {
+      background:#f8ebc4;
+      color:#493d1e;
+      padding:9px 20px;
+      font-size:.79rem;
+      text-align:center;
+    }
+
+    .sitehead {
+      background:var(--pine);
+      color:white;
+    }
+
+    .navrow {
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:18px;
+      flex-wrap:wrap;
+      padding:17px 0;
+    }
+
+    .logo {
+      font-weight:850;
+      font-size:1.12rem;
+      color:white;
+      text-decoration:none;
+    }
+
+    .logo span { color:var(--gold); }
+
+    nav {
+      display:flex;
+      gap:12px 24px;
+      flex-wrap:wrap;
+    }
+
+    nav a {
+      color:#e9f1ea;
+      font-size:.93rem;
+      text-decoration:none;
+    }
+
+    nav a:hover,
+    nav a[aria-current="page"] {
+      color:var(--gold);
+      text-decoration:underline;
+      text-underline-offset:7px;
+    }
+
+    .page-title {
+      background:#e7eee6;
+      padding:52px 0;
+    }
+
+    .page-title h1 {
+      font-size:clamp(2rem,5vw,3.4rem);
+      line-height:1.15;
+      margin:7px 0 12px;
+      letter-spacing:-.03em;
+    }
+
+    .page-title p {
+      max-width:730px;
+      color:#445e51;
+      font-size:1.1rem;
+    }
+
+    .kicker,.tag {
+      color:var(--grass);
+      font-size:.82rem;
+      font-weight:800;
+      text-transform:uppercase;
+      letter-spacing:.08em;
+    }
+
+    section { padding:35px 0; }
+
+    h2 {
+      font-size:clamp(1.45rem,3vw,2.1rem);
+      line-height:1.2;
+      margin:0 0 16px;
+    }
+
+    h3 {
+      font-size:1.16rem;
+      line-height:1.35;
+      margin:8px 0;
+    }
+
+    .grid {
+      display:grid;
+      grid-template-columns:repeat(3,minmax(0,1fr));
+      gap:18px;
+    }
+
+    .card {
+      background:white;
+      border:1px solid var(--line);
+      border-radius:14px;
+      padding:24px;
+      box-shadow:0 6px 16px rgba(20,61,50,.045);
+    }
+
+    .card p { color:var(--muted); }
+
+    .price {
+      font-size:1.7rem;
+      font-weight:800;
+      color:var(--pine);
+      margin:10px 0;
+    }
+
+    .panel {
+      background:#e6eee7;
+      border-radius:16px;
+      padding:27px 30px;
+    }
+
+    .checklist { padding-left:22px; }
+    .checklist li { padding:5px 0; }
+
+    .table-scroll {
+      overflow-x:auto;
+      border-radius:10px;
+    }
+
+    table {
+      width:100%;
+      border-collapse:collapse;
+      background:white;
+    }
+
+    th {
+      background:var(--pine);
+      color:white;
+      text-align:left;
+      padding:14px;
+    }
+
+    td {
+      padding:14px;
+      border-bottom:1px solid var(--line);
+    }
+
+    tbody tr:nth-child(even) {
+      background:#edf3eb;
+    }
+
+    details {
+      background:white;
+      border:1px solid var(--line);
+      border-radius:10px;
+      padding:15px 20px;
+      margin:12px 0;
+    }
+
+    summary {
+      cursor:pointer;
+      font-weight:750;
+      color:var(--pine);
+    }
+
+    details p {
+      color:var(--muted);
+      margin-bottom:0;
+    }
+
+    .small {
+      font-size:.89rem;
+      color:var(--muted);
+    }
+
+    .footer {
+      background:var(--pine);
+      color:#e6f0e9;
+      margin-top:55px;
+      padding:32px 0;
+    }
+
+    .footer a { color:var(--gold); }
+
+    .footlinks {
+      display:flex;
+      gap:16px;
+      flex-wrap:wrap;
+      margin:13px 0;
+    }
+
+    .footnote {
+      font-size:.82rem;
+      opacity:.9;
+    }
+
+    @media(max-width:740px) {
+      .grid { grid-template-columns:1fr; }
+      .navrow {
+        align-items:flex-start;
+        flex-direction:column;
+      }
+      nav { gap:8px 19px; }
+      .card { padding:21px; }
+      section { padding:25px 0; }
+      .panel { padding:22px; }
+      table { min-width:560px; }
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="notice">
+  This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.
+</div>
+
+<header class="sitehead">
+  <div class="container navrow">
+    <a class="logo" href="index.html">
+      IOWA CITY <span>GOLF GUIDE</span>
+    </a>
+
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="golf-courses.html">Golf Courses</a>
+      <a href="beginner-golf.html">Beginner Guide</a>
+      <a href="affordable-golf.html">Affordable Golf</a>
+      <a href="golf-lessons.html" aria-current="page">Golf Lessons</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<div class="page-title">
+  <div class="container">
+    <span class="kicker">Learn the Game</span>
+    <h1>Golf Lessons in Iowa City</h1>
+    <p>
+      Want to improve your golf game?
+      Learn about different types of golf lessons,
+      compare fictional lesson packages,
+      and discover ways to practice as a beginner.
+    </p>
+  </div>
+</div>
+
+<div class="container">
+
+<section>
+  <h2>Why Take Golf Lessons?</h2>
+
+  <p>
+    Golf can be difficult when you're first starting out.
+    There are a lot of things to think about, including
+    your grip, stance, swing, and putting.
+    Taking a lesson can help you understand the basics
+    instead of trying to figure everything out by yourself.
+  </p>
+
+  <p>
+    For University of Iowa students who are interested
+    in learning golf, lessons can also be a way to
+    become more comfortable before playing a full round.
+    You don't have to be an experienced golfer
+    to benefit from instruction.
+  </p>
+</section>
+
+<section>
+  <h2>Types of Beginner Golf Lessons</h2>
+
+  <div class="grid">
+
+    <article class="card">
+      <span class="tag">One-on-One</span>
+      <h3>Private Golf Lessons</h3>
+      <p>
+        Private lessons focus on one golfer at a time.
+        An instructor can help with specific areas
+        like driving, irons, chipping, or putting.
+      </p>
+      <p>
+        <strong>Best for:</strong>
+        Golfers who want individual feedback.
+      </p>
+    </article>
+
+    <article class="card">
+      <span class="tag">Learn Together</span>
+      <h3>Group Golf Lessons</h3>
+      <p>
+        Group lessons allow several people to learn
+        the basics together. They can be a more
+        relaxed option for beginners who want
+        to try golf with friends.
+      </p>
+      <p>
+        <strong>Best for:</strong>
+        Friends and first-time golfers.
+      </p>
+    </article>
+
+    <article class="card">
+      <span class="tag">First Steps</span>
+      <h3>Beginner Golf Clinics</h3>
+      <p>
+        Beginner clinics usually focus on basic
+        skills such as grip, stance, putting,
+        and golf etiquette. They can be a good
+        introduction before taking private lessons.
+      </p>
+      <p>
+        <strong>Best for:</strong>
+        People who have never played golf.
+      </p>
+    </article>
+
+  </div>
+</section>
+
+<section>
+  <h2>Example Golf Lesson Packages</h2>
+
+  <p>
+    The prices below are completely fictional.
+    They are included to demonstrate how a golfer
+    could compare different types of instruction,
+    not to advertise actual lessons in Iowa City.
+  </p>
+
+  <div class="grid">
+
+    <article class="card">
+      <span class="tag">Starter</span>
+      <h3>First Swing Session</h3>
+      <div class="price">$25</div>
+      <p>One 30-minute introductory group session.</p>
+      <p>
+        Covers basic grip, stance, and
+        an introduction to the golf swing.
+      </p>
+    </article>
+
+    <article class="card">
+      <span class="tag">Individual</span>
+      <h3>Private Practice Session</h3>
+      <div class="price">$50</div>
+      <p>One 45-minute individual session.</p>
+      <p>
+        Focuses on personalized instruction
+        and feedback on your swing.
+      </p>
+    </article>
+
+    <article class="card">
+      <span class="tag">Multi-Session</span>
+      <h3>Beginner Improvement Package</h3>
+      <div class="price">$120</div>
+      <p>Three 45-minute fictional private lessons.</p>
+      <p>
+        Builds on fundamentals and introduces
+        short-game practice and course preparation.
+      </p>
+    </article>
+
+  </div>
+
+  <p class="small">
+    These are made-up lesson packages and prices.
+    They are not available for purchase or booking.
+  </p>
+</section>
+
+<section>
+  <h2>Compare Your Lesson Options</h2>
+
+  <div class="table-scroll">
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">Lesson Type</th>
+          <th scope="col">Example Price</th>
+          <th scope="col">Duration</th>
+          <th scope="col">Best For</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Group Intro</td>
+          <td>$25</td>
+          <td>30 minutes</td>
+          <td>First-time golfers</td>
+        </tr>
+        <tr>
+          <td>Private Session</td>
+          <td>$50</td>
+          <td>45 minutes</td>
+          <td>Individual feedback</td>
+        </tr>
+        <tr>
+          <td>Three-Lesson Package</td>
+          <td>$120 total</td>
+          <td>3 × 45 minutes</td>
+          <td>Continued improvement</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p class="small">
+    All prices and packages in this comparison are fictional.
+  </p>
+</section>
+
+<section>
+  <div class="panel">
+    <h2>What to Expect During Your First Golf Lesson</h2>
+
+    <p>
+      Your first golf lesson doesn't need to be stressful.
+      Most beginners start by learning basic movements
+      before worrying about hitting the ball far.
+    </p>
+
+    <ul class="checklist">
+      <li>Start with a basic introduction to the equipment.</li>
+      <li>Learn how to hold a golf club correctly.</li>
+      <li>Practice your stance and setup.</li>
+      <li>Work on making controlled swings.</li>
+      <li>Try a few short shots or putting exercises.</li>
+      <li>Ask what you should practice before the next session.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>How to Improve Between Lessons</h2>
+
+  <p>
+    Taking lessons is helpful, but practicing
+    between sessions is important too.
+    You don't need to spend hours at the
+    driving range to see improvement.
+  </p>
+
+  <ul class="checklist">
+    <li>Practice your grip and stance at home.</li>
+    <li>Spend time putting instead of only hitting drivers.</li>
+    <li>Focus on making consistent contact before swinging harder.</li>
+    <li>Practice for shorter periods rather than getting frustrated.</li>
+    <li>Keep track of one or two things you're trying to improve.</li>
+  </ul>
+
+  <p>
+    You can also read our
+    <a href="beginner-golf.html">beginner golf tips and equipment guide</a>
+    to get more comfortable with the basics.
+  </p>
+</section>
+
+<section>
+  <h2>Frequently Asked Questions About Golf Lessons</h2>
+
+  <details>
+    <summary>Do I need my own golf clubs for lessons?</summary>
+    <p>
+      Not necessarily. Some instructors and practice
+      facilities may offer equipment for beginners.
+      It's a good idea to ask before attending.
+    </p>
+  </details>
+
+  <details>
+    <summary>How many golf lessons should a beginner take?</summary>
+    <p>
+      There's no required number. Some beginners
+      start with one lesson to learn the basics,
+      while others prefer several sessions to
+      build consistency over time.
+    </p>
+  </details>
+
+  <details>
+    <summary>Are private or group lessons better for beginners?</summary>
+    <p>
+      Both can be helpful. Group lessons are good
+      for learning with friends, while private
+      lessons provide more individualized attention.
+    </p>
+  </details>
+
+  <details>
+    <summary>Can college students learn golf on a budget?</summary>
+    <p>
+      Yes. Group instruction and shorter practice
+      sessions can help reduce costs.
+      Students can also compare available discounts
+      and practice options before spending money.
+    </p>
+  </details>
+</section>
+
+<section>
+  <h2>Ready to Learn More About Golf?</h2>
+
+  <p>
+    Once you've learned the basics, the next step
+    is getting comfortable on a golf course.
+    Explore our
+    <a href="golf-courses.html">Iowa City golf course comparisons</a>
+    to understand different course styles.
+  </p>
+
+  <p>
+    If you're trying to keep costs low,
+    check out our
+    <a href="affordable-golf.html">affordable golf ideas for students</a>
+    for fictional budget examples and money-saving tips.
+  </p>
+</section>
+
+</div>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <strong>Iowa City Golf Guide</strong>
+
+    <div class="footlinks">
+      <a href="index.html">Home</a>
+      <a href="golf-courses.html">Golf Courses</a>
+      <a href="beginner-golf.html">Beginner Guide</a>
+      <a href="affordable-golf.html">Affordable Golf</a>
+      <a href="golf-lessons.html" aria-current="page">Golf Lessons</a>
+    </div>
+
+    <p class="footnote">
+      This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.
+    </p>
+
+    <p class="footnote">
+      Sample courses, programs and prices on this website are fictional illustrations, not actual listings or offers.
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>
