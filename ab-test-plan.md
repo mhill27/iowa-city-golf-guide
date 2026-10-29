@@ -27,8 +27,7 @@ Each trial will use a fresh conversation with the same AI model and settings. Th
 
 I will use the same prompt for every trial. The full assigned page text will follow the prompt in the same format.
 
-**AI model and version:** To be recorded before testing.
-
+**AI model and version:** OpenAI ChatGPT — GPT-6.
 ## Random Assignment
 
 I will create a randomized list containing 50 assignments to Version A and 50 assignments to Version B before running the experiment. I will follow that list in order.
